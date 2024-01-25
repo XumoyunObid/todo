@@ -42,15 +42,15 @@ const Todos = ({ todo, id, setTodos }) => {
       <div className="btns">
         {isEditing ? (
           <button onClick={handleDone} className="doneBtn">
-            Done
+            <i className="fa-solid fa-check"></i>
           </button>
         ) : (
           <button onClick={handleEdit} className="editBtn">
-            Edit
+            <i className="fa-solid fa-pen-to-square"></i>
           </button>
         )}
         <button onClick={handleDeleteItem} className="deleteBtn">
-          Delete
+          <i className="fa-solid fa-trash"></i>
         </button>
       </div>
     </li>

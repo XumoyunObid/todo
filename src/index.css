@@ -52,6 +52,9 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid gray;
+  padding: 5px 10px;
+  margin-top: 15px;
 }
 
 .btns {
@@ -67,6 +70,9 @@ a{
   border: none;
   border-radius: 10px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .editBtn {
@@ -76,6 +82,8 @@ a{
   border: none;
   border-radius: 10px;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .doneBtn {
@@ -85,13 +93,15 @@ a{
   border: none;
   border-radius: 10px;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .editForm {
   width: 100%;
   padding: 10px 15px;
   border: 2px solid green;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 15px;
   margin-right: 10px;
 }

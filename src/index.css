@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  margin-block: 25px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #3697e6;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.formBtn {
+  background-color: #3697e6;
+  color: white;
+  border: #3697e6;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+
+.todo {
+  font-size: 18px;
+  width: 100%;
+  padding-block: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  padding: 10px 25px;
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.editBtn {
+  cursor: pointer;
+  padding: 10px 25px;
+  background-color: rgba(255, 213, 0, 0.897);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.doneBtn {
+  cursor: pointer;
+  padding: 10px 25px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.editForm {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid green;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-right: 10px;
+}
